@@ -1,0 +1,11 @@
+--- a/net/minecraft/game/item/Item.java
++++ b/net/minecraft/game/item/Item.java
+@@ -79,7 +79,7 @@
+ 	public final int shiftedIndex;
+ 	protected int maxStackSize = 64;
+ 	protected int maxDamage = 32;
+-	private int iconIndex;
++	protected int iconIndex;
+ 
+ 	protected Item(int i1) {
+ 		this.shiftedIndex = i1 + 256;
